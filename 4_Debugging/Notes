@@ -1,0 +1,8 @@
+
+1)use debugger; command to stop the execution at some point
+2)Note this is how we inspect
+node app.js --inspect add --title="Sometitle3" --body="Somebody"
+4)you can open a chrome window for inspection using chrome://inspect/#devices
+and then inspect the app.js
+5)Also you can add folder to your workSpace -- IMP
+

@@ -1,0 +1,32 @@
+git
+1)untracked files
+files not tracked by git
+
+2)unstaged changes
+changes to file which git is already tracking
+
+3)staged changes
+Things that will be included in
+next commit
+
+4)commits
+all the list of commits
+
+
+
+
+1)add command
+untracked  and unstaged changes -> staged
+
+2)commit command
+staged -> commit
+
+
+Git command sequence
+1) git init -- to initialize a git repository
+2) .gitignore -- list of thing u dont want to track
+3)git status
+
+
+
+do heroku login

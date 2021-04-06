@@ -1,0 +1,13 @@
+Express is for handling routing and Templating
+-handlebars(hbs)  is a templating engine for Express
+-serving Dynamic Web pages
+
+--For Static content use the public directory,
+--For Dynamic content use the views directory using handlebars(hbs)
+  for templating and stuff
+
+--Note the path mentioned inside hbs files (img path inside about.hbs)
+  will all be relative to the public folder
+
+--Partials -- to reuse the parts of a web page eg:Header and Footer
+

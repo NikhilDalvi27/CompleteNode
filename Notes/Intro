@@ -1,0 +1,44 @@
+Git link
+https://github.com/andrewjmead/node-course-v3-code
+
+For npm packages visit  npmjs.com
+
+1)What is Node.js
+-It's a JavaScript Runtime
+-Allows JavaScript code to run on server
+
+2)How does it run js code on server
+-It uses the javascript engine V8  which is built by google
+-V8 is used to run the javascript in the browser
+-V8 takes the javascript code and compiles it to the machine code
+-V8 is written in C++
+
+3)why to use Node.js
+-It's uses an event driven, non blocking I/O model which makes it lightweight and efficient
+I/O example
+- Node app wants to communicate with the machine it's running on- that's I/O
+- Node app wants to communicate with some other server eg: querying a database- that's I/O
+while these I/O operations are occuring..the node.js application can do other things like
+processing other request
+
+IMP
+-Node.js takes that code base of V8 that is written in C++ and
+ADDS certain features to V8 codebase like -- working with local files etc
+like ..reading files,creating files and deleting files...connecting with database
+ALSO SOME FEATURE ARE TAKEN AWAY - like working with DOM
+
+
+4) npm init creates configuration file called package.json which will manage
+all the dependencies
+
+5)IMP  Node Modules directory can be recreated from scratch using package.json
+so no need to include node modules directory in git ... run npm install
+npm install command looks at the content of the package.json file
+and recreates the node modules directory with all the modules specified inside package.json
+
+6)IMP
+Just like we have document in the browser,
+  we have PROCESS in node...which is a large object
+
+7)Remember to export from a file whenever we want to import that file
+

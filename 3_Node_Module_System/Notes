@@ -1,0 +1,10 @@
+1)//todo If the file exists then the content will be overwritten
+fs.writeFileSync('dummy.txt','This was created using Node.js')
+
+2)//todo To add something use this
+fs.appendFileSync('dummy.txt','This was appended')
+
+3)//todo Important Note that we need to export the stuff that
+//we will use when notes files is required
+
+module.exports = getNotes;
