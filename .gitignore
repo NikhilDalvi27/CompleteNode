@@ -3,3 +3,11 @@
 /7_WebServers/web-server/node_modules/
 /node_modules/
 /.idea/
+/.idea/
+/.idea/runConfigurations/
+/.idea/.gitignore
+/.idea/jsLibraryMappings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
