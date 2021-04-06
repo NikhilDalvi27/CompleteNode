@@ -23,10 +23,18 @@ staged -> commit
 
 
 Git command sequence
-1) git init -- to initialize a git repository
-2) .gitignore -- list of thing u dont want to track
-3)git status
+1) git init -- to initialize a git repository (only once)
+2) .gitignore -- list of thing u dont want to track (only once)
+3)git add .     --- to move everything to staging area
+4)git commit -m "commit message" - to commit
 
+
+
+
+5)get the ssh keys from (git bash) IMP
+ ls -a -l ~/.ssh
+ if keys not present then u can create them using
+ ssh-keygen command
 
 
 do heroku login
