@@ -6,6 +6,8 @@ const foreCast = require('../../../6_AsynchronousNode/WeatherApp/utils/forecast'
 
 //todo this stores our express application
 const app = express();
+const port = process.env.PORT||3000
+
 
 //todo Define path for express config
 const publicDirectory = path.join(__dirname,'../public');
@@ -110,6 +112,6 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(3000,()=>{
-    console.log(`Server running on port 3000`);
+app.listen(port,()=>{
+    console.log(`Server running on port `+port);
 })

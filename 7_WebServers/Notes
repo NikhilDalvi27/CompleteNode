@@ -11,3 +11,5 @@ Express is for handling routing and Templating
 
 --Partials -- to reuse the parts of a web page eg:Header and Footer
 
+IMP
+Use npm run start  ----to start up this application
