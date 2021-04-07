@@ -13,3 +13,5 @@ Express is for handling routing and Templating
 
 IMP
 Use npm run start  ----to start up this application
+app runs on port 3000
+

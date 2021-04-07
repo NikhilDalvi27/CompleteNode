@@ -1,0 +1,11 @@
+User Password should not be stored in DB in plain Text
+
+
+Encryption Algorithm is Reversible
+Nikhil -> wreivjoiwafas -> Nikhil
+
+Hashing Algorithm is Irreversible
+Nikhil -> uroiewhawfngkdsml
+
+
+bcryptjs library is used for Hashing

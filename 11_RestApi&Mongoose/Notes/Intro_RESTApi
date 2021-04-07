@@ -1,0 +1,39 @@
+Representational State Transfer- Application Programming Interface(REST Api or RESTful Api)
+
+API - set of tools that allow you to build a software
+eg: fs module in Node
+
+REST - allows client to access/or manipulate a resource using a set of predefined operations
+eg: Create a New Task/ Mark a task as Complete
+
+State Transfer- REST Api is stateless
+State is transferred from server to the client
+Each request from client contains everything that is needed for the server to process that request
+
+
+Different Methods
+1)POST        /tasks               -- to send the data(CREATE)
+2)GET         /tasks               -- to get the data(READ)
+              /tasks/:id
+3)PATCH       /tasks/:id           -- to update the data(UPDATE)
+3)DELETE      /tasks/:id           -- to delete the data(DELETE)
+
+
+THE DIFFERENCE BETWEEN PUT AND PATCH
+PATCH - only send the part of data which need to be updated,
+        for eg only FirstName Field is to be updated
+PUT  - Send the entire data which needs to be updated,
+        for eg even if only FirstName is to be updated,
+        send firstName as well as the LastName
+
+
+
+HTTP Request Structure
+1)Request line - HTTP method used and the path accessed
+2)Request Header - Contain meta Info
+3)Request Body
+
+HTTP Response Structure
+1)Status line - Protocol, followed by the status code
+2)Response Header - Contain meta Info
+3)Response Body

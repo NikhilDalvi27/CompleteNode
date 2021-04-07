@@ -1,0 +1,11 @@
+Mongoose
+- Used for Validation,
+eg: 1)which fields are required and which are optional
+    2)Enforcing particular data type to a field
+    3)Authentication-restricted access
+
+1)Creates a Model which represent a thing/Object in the real world
+    and using Model it can be stored in a Database
+2)It's a ODM tool...i.e. Object Document Mapper
+
+

@@ -1,0 +1,6 @@
+
+
+ SQL                                                 noSQL
+-has tables                                     -has Collection
+-with rows and                                  -with Document(Json Data) and
+-with columns                                   -with Field

@@ -1,0 +1,19 @@
+In Sql
+-server generates the newid for new records
+-uses auto-increment
+
+
+In mongoDB
+-They are guid--globally unique....so chance of collision
+-Server need not decide the next Id
+-This allow MongoDB to scale well in a Distributed System
+
+eg user with id 1 in one Database server and
+   user with id 1 in other Database server
+
+
+Returns a new ObjectId value. The 12-byte ObjectId value consists of:
+
+a 4-byte timestamp value, representing the ObjectId's creation, measured in seconds since the Unix epoch
+a 5-byte random value
+a 3-byte incrementing counter, initialized to a random value
