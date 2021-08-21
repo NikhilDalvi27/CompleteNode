@@ -27,7 +27,7 @@ Git command sequence
 2) .gitignore -- list of thing u dont want to track (only once)
 3)git add .     --- to move everything to staging area
 4)git commit -m "commit message" - to commit
-
+5)git push -u origin master to push the code
 
 
 

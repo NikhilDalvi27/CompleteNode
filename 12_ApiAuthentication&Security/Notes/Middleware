@@ -1,0 +1,4 @@
+Mongoose support Middleware
+
+1)With Middleware we can register some functions which will run
+before or after a certain event
